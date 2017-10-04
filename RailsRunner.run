@@ -1,0 +1,11 @@
+{
+    "script": [
+        "kill -9 $(lsof -i tcp:8080 -t) >/dev/null 2>/dev/null",
+        "ROOT=`pwd`",
+        "IFS='/' read -ra APP_PATH <<< $ROOT",
+        "ROOT_PATH=$(IFS=/ ; echo \"${APP_PATH[*]:0:5}\")",
+        "cd ${ROOT_PATH[0]} && rails server -b $ip -p $port"
+    ],
+    "env": {},
+    "info": "Your code is running at \\033[01;34m$url\\033[00m.\n\\033[01;31m"
+}
