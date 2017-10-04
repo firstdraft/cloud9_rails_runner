@@ -9,7 +9,7 @@ Installation
 
 Click Run -> Run With -> New Runner
 
-Copy pase the RailsRunner.run to cloud 9
+Copy and paste the RailsRunner.run to cloud 9
 
 Rename the file to RailsRunner.run and save
 
