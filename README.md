@@ -11,7 +11,7 @@ Click Run -> Run With -> New Runner
 
 Copy and paste the RailsRunner.run to cloud 9
 
-Rename the file to RailsRunner.run and save
+Rename the file to `Active File — Rails Server.run` and save
 
 Note
 -------
